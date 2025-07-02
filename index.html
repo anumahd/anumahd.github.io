@@ -123,16 +123,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init({ duration: 800, once: true });</script>
 
-  <!-- Dark-mode toggle -->
-  <script>
-    function toggleDarkMode() {
-      const html = document.documentElement;
-      html.classList.toggle('dark');
-      document.getElementById('modeIcon').textContent =
-        html.classList.contains('dark') ? '☀️' : '🌙';
-    }
-  </script>
-
   <!-- Scroll-to-top logic -->
   <script>
     const toTopBtn = document.getElementById('toTop');
