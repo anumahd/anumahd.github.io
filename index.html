@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Anumah — Data Scientist / Analyst</title>
 
-  <!-- favicon -->
+  <!-- favicon (upload favicon.ico to repo root) -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Tailwind with class-based dark mode -->
+  <!-- Tailwind + class-based dark mode -->
   <script>
     tailwind.config = { darkMode: 'class' };
   </script>
@@ -28,11 +28,87 @@
       👋 Hi, I'm <span class="text-teal-600">David Anumah</span>
     </h1>
     <p class="text-xl sm:text-2xl mb-6">
-      Data Scientist / Analyst ready to turn data into actionable insights.
+      Data Scientist / Analyst turning data into actionable insights.
     </p>
 
     <div class="flex gap-4">
       <a href="#projects" class="bg-teal-600 text-white px-6 py-3 rounded-lg shadow hover:bg-teal-700">
         View Projects
       </a>
-      <a href="mailto:anumahd@yaho
+      <a href="mailto:anumahd@yahoo.com" class="border border-teal-600 px-6 py-3 rounded-lg hover:bg-teal-100">
+        Hire Me
+      </a>
+    </div>
+  </section>
+
+  <!-- ────────────── PROJECTS ────────────── -->
+  <section id="projects" class="py-20 px-6 bg-white dark:bg-gray-800">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+    <!-- Customer Churn Prediction -->
+    <div class="max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md mb-6">
+      <h3 class="text-xl font-semibold">Customer Churn Prediction</h3>
+      <p class="mt-2 text-gray-700 dark:text-gray-300">
+        Built a predictive model to identify customers at risk of churning using Scikit-learn and real-world data.
+      </p>
+      <a href="https://github.com/anumahd/Customer-Churn-" class="text-teal-600 dark:text-teal-400 mt-2 inline-block">View on GitHub</a>
+    </div>
+
+    <!-- XRP Price Prediction with RNN -->
+    <div class="max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md mb-6">
+      <h3 class="text-xl font-semibold">XRP Price Prediction with RNN</h3>
+      <p class="mt-2 text-gray-700 dark:text-gray-300">
+        Implemented a Recurrent Neural Network to forecast cryptocurrency prices using TensorFlow/Keras.
+      </p>
+      <a href="https://github.com/anumahd/XRP-Price-predicion-usig-RNN" class="text-teal-600 dark:text-teal-400 mt-2 inline-block">View on GitHub</a>
+    </div>
+
+    <!-- RFM Customer Segmentation -->
+    <div class="max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md mb-6">
+      <h3 class="text-xl font-semibold">RFM Customer Segmentation</h3>
+      <p class="mt-2 text-gray-700 dark:text-gray-300">
+        Used RFM (Recency, Frequency, Monetary) analysis to segment customers and drive targeted marketing strategies.
+      </p>
+      <a href="https://github.com/anumahd/RFM-Model" class="text-teal-600 dark:text-teal-400 mt-2 inline-block">View on GitHub</a>
+    </div>
+
+    <!-- FTSE100 vs Bitcoin Analysis -->
+    <div class="max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md mb-6">
+      <h3 class="text-xl font-semibold">FTSE100 vs Bitcoin Analysis</h3>
+      <p class="mt-2 text-gray-700 dark:text-gray-300">
+        Analysed five years of FTSE100 and Bitcoin performance in GBP using Python.
+      </p>
+      <a href="https://github.com/anumahd/Five-Year-Historical-Performance-of-FTSE100-and-Bitcoin-Prices-in-GBP" class="text-teal-600 dark:text-teal-400 mt-2 inline-block">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- ────────────── CONTACT ────────────── -->
+  <section id="contact" class="py-24 bg-teal-600 dark:bg-teal-800 text-white px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center">Let’s Talk</h2>
+    <p class="max-w-xl mx-auto mb-8 text-center">
+      Open to data-science / analyst roles, freelance projects, and collaborations.  
+      Reach out and I’ll reply within 24 hours.
+    </p>
+    <div class="flex justify-center gap-6 text-center">
+      <a href="mailto:anumahd@yahoo.com" class="underline">anumahd@yahoo.com</a>
+      <a href="https://github.com/anumahd" class="underline">GitHub</a>
+      <a href="https://linkedin.com/in/david-o-anumah1984" class="underline">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- ────────────── FOOTER ────────────── -->
+  <footer class="py-6 text-center text-sm text-gray-500">
+    © 2025 David Anumah — Built with GitHub Pages & Tailwind CSS
+  </footer>
+
+  <!-- dark-mode script -->
+  <script>
+    const toggleDarkMode = () => {
+      const html = document.documentElement;
+      html.classList.toggle('dark');
+      document.getElementById('modeIcon').textContent =
+        html.classList.contains('dark') ? '☀️' : '🌙';
+    };
+  </script>
+</body>
+</html>
