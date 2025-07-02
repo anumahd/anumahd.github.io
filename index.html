@@ -141,6 +141,27 @@
         html.classList.contains('dark') ? '☀️' : '🌙';
     };
   </script>
+<!-- Scroll-to-Top button -->
+<button id="toTop"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+        class="hidden fixed bottom-6 right-6 p-3 rounded-full bg-teal-600 text-white shadow-lg
+               transition-opacity duration-300 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400 z-50">
+  ↑
+</button>
+<script>
+  const toTopBtn = document.getElementById('toTop');
+
+  window.addEventListener('scroll', () => {
+    // reveal after 300 px of scrolling
+    if (window.scrollY > 300) {
+      toTopBtn.classList.remove('hidden');
+      toTopBtn.classList.add('opacity-90');
+    } else {
+      toTopBtn.classList.add('hidden');
+      toTopBtn.classList.remove('opacity-90');
+    }
+  });
+</script>
 
 </body>
 </html>
