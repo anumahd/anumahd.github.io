@@ -5,28 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Anumah — Data Scientist / Analyst</title>
 
+  <!-- SEO -->
+  <meta name="description" content="Portfolio of David Anumah — Data Scientist and Analyst specialising in machine-learning models, Tableau dashboards and data-driven insights.">
+  <meta name="keywords" content="Data Science, David Anumah, Machine Learning, Tableau, Analytics, Python, Portfolio">
+
   <!-- favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- AOS scroll-animation styles -->
+  <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 
 <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
 
+  <!-- decorative hero blob -->
+  <div class="absolute inset-0 pointer-events-none">
+    <svg viewBox="0 0 800 600" class="w-full h-full opacity-10">
+      <path fill="#14b8a6" d="M591 330q-51 80-147 141t-176 49q-80-12-145-83T55 316q3-95 63-163t150-91q90-22 174 12t152 117q65 79 37 139Z"/>
+    </svg>
+  </div>
+
   <!-- ── HERO ─────────────────────────── -->
-  <section id="hero" class="min-h-screen flex flex-col items-center justify-center text-center px-6" data-aos="fade-up">
-    <h1 class="text-4xl sm:text-6xl font-bold mb-4 text-center">
+  <section id="hero" class="relative min-h-screen flex flex-col items-center justify-center text-center px-6" data-aos="fade-up">
+    <h1 class="text-4xl sm:text-6xl font-bold mb-4 text-center relative z-10">
       Hi, I'm <span class="text-teal-600">David Anumah</span>
     </h1>
-    <p class="text-xl sm:text-2xl mb-8 text-center max-w-2xl">
+    <p class="text-xl sm:text-2xl mb-8 text-center max-w-2xl relative z-10">
       Data Scientist / Analyst: Turning data into actionable insights.
     </p>
 
-    <div class="flex gap-4">
+    <!-- skills / tool stack -->
+    <div class="flex flex-wrap justify-center gap-3 mb-10 relative z-10">
+      <span class="px-4 py-2 bg-white rounded-full shadow">Python</span>
+      <span class="px-4 py-2 bg-white rounded-full shadow">Pandas</span>
+      <span class="px-4 py-2 bg-white rounded-full shadow">Scikit-learn</span>
+      <span class="px-4 py-2 bg-white rounded-full shadow">TensorFlow / Keras</span>
+      <span class="px-4 py-2 bg-white rounded-full shadow">Tableau</span>
+      <span class="px-4 py-2 bg-white rounded-full shadow">SQL</span>
+    </div>
+
+    <div class="flex gap-4 relative z-10">
       <a href="#projects" class="bg-teal-600 text-white px-6 py-3 rounded-lg shadow hover:bg-teal-700 transition">View Projects</a>
       <a href="mailto:anumahd@yahoo.com" class="border border-teal-600 px-6 py-3 rounded-lg hover:bg-white transition">Hire Me</a>
     </div>
@@ -36,44 +57,49 @@
   <section id="projects" class="py-20 px-6">
     <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Projects</h2>
 
-    <!-- responsive 2-column grid -->
     <div class="grid gap-8 max-w-5xl mx-auto md:grid-cols-2">
 
-      <!-- Project Card -->
+      <!-- Card template: duplicate & edit -->
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/churn.png" alt="Churn dashboard" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">Customer Churn Prediction</h3>
         <p class="text-gray-700 mb-4">Predictive model identifying customers likely to churn using Scikit-learn.</p>
         <a href="https://github.com/anumahd/Customer-Churn-" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on GitHub →</a>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/xrp.png" alt="XRP forecast" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">XRP Price Prediction with RNN</h3>
         <p class="text-gray-700 mb-4">Recurrent Neural Network forecasting XRP cryptocurrency prices.</p>
         <a href="https://github.com/anumahd/XRP-Price-prediction-usig-RNN" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on GitHub →</a>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/rfm.png" alt="RFM segmentation" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">RFM Customer Segmentation</h3>
         <p class="text-gray-700 mb-4">Segmented customers using Recency-Frequency-Monetary analysis.</p>
         <a href="https://github.com/anumahd/RFM-Model" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on GitHub →</a>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/ftse.png" alt="FTSE vs Bitcoin chart" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">FTSE100 vs Bitcoin Analysis</h3>
         <p class="text-gray-700 mb-4">Five-year comparative performance analysis of FTSE100 and Bitcoin in GBP.</p>
         <a href="https://github.com/anumahd/Five-Year-Historical-Performance-of-FTSE100-and-Bitcoin-Prices-in-GBP" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on GitHub →</a>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/attrition.png" alt="Attrition dashboard" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">Employee Attrition Dashboard (Tableau)</h3>
         <p class="text-gray-700 mb-4">Interactive Tableau dashboard exploring drivers of employee turnover.</p>
-        <a href="https://public.tableau.com/app/profile/david.a6651/viz/DavidAnumahSAGAdummydata/Dashboard1" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on Tableau Public →</a>
+        <a href="https://public.tableau.com/app/profile/david.a6651/viz/DavidAnumahSAGAdummydata/Dashboard1" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on Tableau →</a>
       </div>
 
       <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-transform hover:-translate-y-1" data-aos="fade-up">
+        <img src="images/sales.png" alt="Sales dashboard" class="rounded-md mb-4 shadow">
         <h3 class="text-xl font-semibold mb-2">Sales Dashboard (Tableau)</h3>
-        <p class="text-gray-700 mb-4">Comprehensive sales performance dashboard with category and time trends.</p>
-        <a href="https://public.tableau.com/app/profile/david.a6651/viz/share_16386374542650/Dashboard1" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on Tableau Public →</a>
+        <p class="text-gray-700 mb-4">Comprehensive sales dashboard showing trends, categories and revenue.</p>
+        <a href="https://public.tableau.com/app/profile/david.a6651/viz/share_16386374542650/Dashboard1" target="_blank" rel="noopener noreferrer" class="text-teal-600 font-medium">View on Tableau →</a>
       </div>
 
     </div>
@@ -97,30 +123,30 @@
     © 2025 David Anumah — Built with GitHub Pages & Tailwind CSS
   </footer>
 
-  <!-- Scroll-to-top button -->
-  <button id="toTop"
-          onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+  <!-- Scroll-to-top -->
+  <button id="toTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
           class="hidden fixed bottom-6 right-6 p-3 rounded-full bg-teal-600 text-white shadow-lg
-                 transition-opacity duration-300 hover:bg-teal-700 z-50">
-    ↑
-  </button>
+                 transition-opacity duration-300 hover:bg-teal-700 z-50">↑</button>
 
   <!-- AOS script -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init({ duration: 800 });</script>
 
-  <!-- Show / hide scroll-top button -->
+  <!-- Show / hide scroll-top -->
   <script>
     const toTopBtn = document.getElementById('toTop');
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        toTopBtn.classList.remove('hidden');
-        toTopBtn.classList.add('opacity-90');
-      } else {
-        toTopBtn.classList.add('hidden');
-        toTopBtn.classList.remove('opacity-90');
-      }
+      if (window.scrollY > 300) { toTopBtn.classList.remove('hidden'); toTopBtn.classList.add('opacity-90'); }
+      else { toTopBtn.classList.add('hidden'); toTopBtn.classList.remove('opacity-90'); }
     });
+  </script>
+
+  <!-- Google Analytics (GA4) — replace G-XXXXXXX -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-XXXXXXX');
   </script>
 </body>
 </html>
