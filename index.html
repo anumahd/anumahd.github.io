@@ -7,23 +7,25 @@
 
   <!-- SEO -->
   <meta name="description" content="Portfolio of David Anumah — Data Scientist and Analyst specialising in retail, fraud prevention, education analytics, logistics & transport.">
-  <meta name="keywords" content="Data Science, David Anumah, Machine Learning, Tableau, Analytics, Python, Portfolio">
+  <meta name="keywords"    content="Data Science, David Anumah, Machine Learning, Tableau, Analytics, Python, Portfolio">
 
-  <!-- favicon -->
+  <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- AOS -->
+  <!-- AOS animation -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-  <!-- Smooth scrolling -->
-  <style>html{scroll-behavior:smooth}</style>
+  <style>
+    html{scroll-behavior:smooth}
+  </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed overflow-x-hidden">
-  <!-- decorative hero blob -->
+
+  <!-- Decorative hero blob -->
   <div class="absolute inset-0 pointer-events-none">
     <svg viewBox="0 0 800 600" class="w-full h-full opacity-10">
       <path fill="#14b8a6" d="M591 330q-51 80-147 141t-176 49q-80-12-145-83T55 316q3-95 63-163t150-91q90-22 174 12t152 117q65 79 37 139Z"/>
@@ -32,7 +34,6 @@
 
   <!-- ─── HERO ─────────────────────────── -->
   <section id="hero" class="relative min-h-screen flex flex-col items-center justify-center text-center px-6" data-aos="fade-up">
-    <!-- Floating avatar -->
     <div class="absolute top-6 left-6 flex items-center gap-3 p-2 bg-white rounded-full shadow-md z-50">
       <img src="davidanumah.png" alt="David Anumah" class="w-10 h-10 rounded-full">
       <span class="font-medium">David Anumah</span>
@@ -45,6 +46,7 @@
       Data Scientist / Analyst: Turning data into actionable insights.
     </p>
 
+    <!-- Skills -->
     <div class="flex flex-wrap justify-center gap-3 mb-4 relative z-10">
       <span class="px-4 py-2 bg-white rounded-full shadow">Python</span>
       <span class="px-4 py-2 bg-white rounded-full shadow">Pandas</span>
@@ -68,30 +70,25 @@
     </div>
   </section>
 
+  <!-- Wave Divider -->
   <div class="relative -mb-1">
     <svg class="absolute top-0 left-0 w-full h-16 text-white" viewBox="0 0 1440 320" preserveAspectRatio="none">
-      <path fill="currentColor" d="M0,224L1440,96L1440,320L0,320Z" />
+      <path fill="currentColor" d="M0,224L1440,96L1440,320L0,320Z"/>
     </svg>
   </div>
 
   <!-- ─── PROJECTS ─────────────────────── -->
   <section id="projects" class="py-20 px-6 bg-teal-50">
     <div class="relative text-center mb-12" data-aos="fade-up">
-      <svg class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-10 w-72 h-72 text-teal-300 pointer-events-none" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="currentColor" d="M44.8,-76.3C56.8,-66.6,64.9,-52.3,71.2,-38C77.4,-23.6,81.8,-9.3,79.6,4.4C77.5,18.2,68.9,31.4,58.2,42.3C47.4,53.3,34.6,61.9,21.3,65.8C7.9,69.7,-6,68.8,-20.1,64.7C-34.1,60.7,-48.3,53.6,-58.3,42.5C-68.2,31.5,-73.9,16.7,-73.8,2C-73.6,-12.8,-67.7,-25.6,-59.2,-37.1C-50.7,-48.5,-39.6,-58.5,-27.2,-67.5C-14.8,-76.5,0,-84.6,14.5,-83.3C29,-82,43.6,-71.9,44.8,-76.3Z" transform="translate(100 100)" />
+      <!-- Decorative blob -->
+      <svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 w-72 h-72 text-teal-300 pointer-events-none" viewBox="0 0 200 200">
+        <path fill="currentColor" d="M44.8,-76.3C56.8,-66.6,64.9,-52.3,71.2,-38C77.4,-23.6,81.8,-9.3,79.6,4.4C77.5,18.2,68.9,31.4,58.2,42.3C47.4,53.3,34.6,61.9,21.3,65.8C7.9,69.7,-6,68.8,-20.1,64.7C-34.1,60.7,-48.3,53.6,-58.3,42.5C-68.2,31.5,-73.9,16.7,-73.8,2C-73.6,-12.8,-67.7,-25.6,-59.2,-37.1C-50.7,-48.5,-39.6,-58.5,-27.2,-67.5C-14.8,-76.5,0,-84.6,14.5,-83.3C29,-82,43.6,-71.9,44.8,-76.3Z"/>
       </svg>
       <h2 class="text-3xl font-bold relative z-10">Projects</h2>
     </div>
 
-    <!-- Project grid fix for square cards -->
+    <!-- 2-column grid, square cards -->
     <div class="grid grid-cols-2 gap-4 sm:gap-6 max-w-5xl mx-auto">
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <!-- Card content here -->
-        </div>
-      </div>
-      <!-- repeat above block for each project card -->
-    </div>
-  </section>
-</body>
-</html>
+
+      <!-- Example Card (duplicate for each project) -->
+      <div class="as
