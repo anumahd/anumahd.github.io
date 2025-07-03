@@ -4,232 +4,86 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Anumah — Data Scientist / Analyst</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Portfolio of David Anumah — Data Scientist and Analyst specialising in retail, fraud prevention, education analytics, logistics & transport.">
-  <meta name="keywords"    content="Data Science, David Anumah, Machine Learning, Tableau, Analytics, Python, Portfolio">
-
-  <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- AOS animation -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-
-  <style>
-    html{scroll-behavior:smooth}
-  </style>
+  <style>html{scroll-behavior:smooth}</style>
 </head>
-
 <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed overflow-x-hidden">
-
-  <!-- Decorative hero blob -->
-  <div class="absolute inset-0 pointer-events-none">
-    <svg viewBox="0 0 800 600" class="w-full h-full opacity-10">
-      <path fill="#14b8a6" d="M591 330q-51 80-147 141t-176 49q-80-12-145-83T55 316q3-95 63-163t150-91q90-22 174 12t152 117q65 79 37 139Z"/>
-    </svg>
-  </div>
-
-  <!-- ─── HERO ─────────────────────────── -->
-  <section id="hero" class="relative min-h-screen flex flex-col items-center justify-center text-center px-6" data-aos="fade-up">
-    <div class="absolute top-6 left-6 flex items-center gap-3 p-2 bg-white rounded-full shadow-md z-50">
-      <img src="davidanumah.png" alt="David Anumah" class="w-10 h-10 rounded-full">
-      <span class="font-medium">David Anumah</span>
-    </div>
-
-    <h1 class="text-4xl sm:text-6xl font-bold mb-4 relative z-10">
-      Hi, I'm <span class="text-teal-600">David Anumah</span>
-    </h1>
-    <p class="text-xl sm:text-2xl mb-8 max-w-2xl relative z-10">
-      Data Scientist / Analyst: Turning data into actionable insights.
-    </p>
-
-    <!-- Skills -->
-    <div class="flex flex-wrap justify-center gap-3 mb-4 relative z-10">
-      <span class="px-4 py-2 bg-white rounded-full shadow">Python</span>
-      <span class="px-4 py-2 bg-white rounded-full shadow">Pandas</span>
-      <span class="px-4 py-2 bg-white rounded-full shadow">Scikit-learn</span>
-      <span class="px-4 py-2 bg-white rounded-full shadow">TensorFlow / Keras</span>
-      <span class="px-4 py-2 bg-white rounded-full shadow">Tableau</span>
-      <span class="px-4 py-2 bg-white rounded-full shadow">SQL</span>
-    </div>
-
-    <p class="text-center text-gray-700 text-lg max-w-xl mt-4 mb-8 leading-relaxed relative z-10">
-      Focused on solving problems in
-      <span class="block sm:inline"><strong>Retail</strong>, </span>
-      <span class="block sm:inline"><strong>Fraud Analysis</strong>, </span>
-      <span class="block sm:inline"><strong>Educational Data</strong>, </span>
-      <span class="block sm:inline"><strong>Logistics &amp; Transport</strong>.</span>
-    </p>
-
-    <div class="flex gap-4 relative z-10">
-      <a href="#projects" class="bg-teal-600 text-white px-6 py-3 rounded-lg shadow hover:bg-teal-700 transition">View Projects</a>
-      <a href="mailto:anumahd@yahoo.com" class="border border-teal-600 px-6 py-3 rounded-lg hover:bg-white transition">Hire Me</a>
-    </div>
-  </section>
-
-  <!-- Wave Divider -->
-  <div class="relative -mb-1">
-    <svg class="absolute top-0 left-0 w-full h-16 text-white" viewBox="0 0 1440 320" preserveAspectRatio="none">
-      <path fill="currentColor" d="M0,224L1440,96L1440,320L0,320Z"/>
-    </svg>
-  </div>
-
-  <!-- ─── PROJECTS ─────────────────────── -->
+  <!-- Projects Section -->
   <section id="projects" class="py-20 px-6 bg-teal-50">
     <div class="relative text-center mb-12" data-aos="fade-up">
-      <!-- Decorative blob -->
-      <svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 w-72 h-72 text-teal-300 pointer-events-none" viewBox="0 0 200 200">
-        <path fill="currentColor" d="M44.8,-76.3C56.8,-66.6,64.9,-52.3,71.2,-38C77.4,-23.6,81.8,-9.3,79.6,4.4C77.5,18.2,68.9,31.4,58.2,42.3C47.4,53.3,34.6,61.9,21.3,65.8C7.9,69.7,-6,68.8,-20.1,64.7C-34.1,60.7,-48.3,53.6,-58.3,42.5C-68.2,31.5,-73.9,16.7,-73.8,2C-73.6,-12.8,-67.7,-25.6,-59.2,-37.1C-50.7,-48.5,-39.6,-58.5,-27.2,-67.5C-14.8,-76.5,0,-84.6,14.5,-83.3C29,-82,43.6,-71.9,44.8,-76.3Z"/>
+      <svg class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-10 w-72 h-72 text-teal-300 pointer-events-none" viewBox="0 0 200 200">
+        <path fill="currentColor" d="M44.8,-76.3C56.8,-66.6,64.9,-52.3,71.2,-38C77.4,-23.6,81.8,-9.3,79.6,4.4C77.5,18.2,68.9,31.4,58.2,42.3C47.4,53.3,34.6,61.9,21.3,65.8C7.9,69.7,-6,68.8,-20.1,64.7C-34.1,60.7,-48.3,53.6,-58.3,42.5C-68.2,31.5,-73.9,16.7,-73.8,2C-73.6,-12.8,-67.7,-25.6,-59.2,-37.1C-50.7,-48.5,-39.6,-58.5,-27.2,-67.5C-14.8,-76.5,0,-84.6,14.5,-83.3C29,-82,43.6,-71.9,44.8,-76.3Z" transform="translate(100 100)" />
       </svg>
       <h2 class="text-3xl font-bold relative z-10">Projects</h2>
     </div>
 
-    <!-- 2-column grid, square cards -->
     <div class="grid grid-cols-2 gap-4 sm:gap-6 max-w-5xl mx-auto">
 
-      <!-- Example Card (duplicate for each project) -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="customer churn.png" alt="Churn dashboard" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">Customer Churn Prediction</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Predictive model identifying customers likely to churn using Scikit-learn.
-          </p>
-          <a href="https://github.com/anumahd/Customer-Churn-" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
+      <div class="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="customer churn.png" alt="Churn dashboard" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">Customer Churn Prediction</h3>
+        <p class="text-gray-700 mb-4">Predictive model identifying customers likely to churn using Scikit-learn.</p>
+        <a href="https://github.com/anumahd/Customer-Churn-" target="_blank" class="text-teal-600 font-medium mt-auto">View on GitHub →</a>
+      </div>
+
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="XRP price prediction.jpeg" alt="XRP forecast" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">XRP Price Prediction with RNN</h3>
+        <p class="text-gray-700 mb-4">Recurrent Neural Network forecasting XRP cryptocurrency prices.</p>
+        <a href="https://github.com/anumahd/XRP-Price-prediction-usig-RNN" target="_blank" class="text-teal-600 font-medium mt-auto">View on GitHub →</a>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-xl shadow-md flex flex-col" data-aos="fade-up">
+        <img src="target.jpeg" alt="Donor Target Marketing Preview" class="rounded-lg shadow mb-4 w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">🎯 Donor Target Marketing</h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">Classification-based donor prediction using logistic regression and decision trees.</p>
+        <div class="mt-auto space-x-4">
+          <a href="https://github.com/anumahd/donor-target-marketing" target="_blank" class="text-teal-600 hover:underline">GitHub</a>
+          <a href="notebooks/Donor_Target_Marketing.ipynb" target="_blank" class="text-teal-600 hover:underline">Notebook</a>
         </div>
       </div>
 
-      <!-- ⬇️ Repeat each project with the same aspect-square wrapper ⬇️-->
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="RFM.png" alt="RFM segmentation" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">RFM Customer Segmentation</h3>
+        <p class="text-gray-700 mb-4">Segmented customers using Recency-Frequency-Monetary analysis.</p>
+        <a href="https://github.com/anumahd/RFM-Model" target="_blank" class="text-teal-600 font-medium mt-auto">View on GitHub →</a>
+      </div>
 
-      <!-- XRP Card -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="XRP price prediction.jpeg" alt="XRP forecast" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">XRP Price Prediction (RNN)</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Recurrent Neural Network forecasting cryptocurrency prices.
-          </p>
-          <a href="https://github.com/anumahd/XRP-Price-prediction-usig-RNN" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
+      <div class="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-xl shadow-md flex flex-col" data-aos="fade-up">
+        <img src="recomend.jpeg" alt="Recommendation Engine Summary" class="w-full rounded-md mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-2">🛒 Recommendation Engine</h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">ALS-based recommender on retail data with SQL-Python integration and AUC evaluation.</p>
+        <div class="mt-auto space-x-4">
+          <a href="https://github.com/anumahd/recommendation-engine" target="_blank" class="text-teal-600 hover:underline">GitHub</a>
+          <a href="docs/Recommendation_Engine.html" target="_blank" class="text-teal-600 hover:underline">Preview</a>
         </div>
       </div>
 
-      <!-- Donor Target Marketing -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="target.jpeg" alt="Donor Target Marketing" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">Donor Target Marketing</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Classification workflow to identify likely donors using logistic regression &amp; decision trees.
-          </p>
-          <a href="https://github.com/anumahd/donor-target-marketing" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
-        </div>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="FTSE100.jpeg" alt="FTSE vs Bitcoin chart" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">FTSE100 vs Bitcoin Analysis</h3>
+        <p class="text-gray-700 mb-4">Five-year comparative analysis of FTSE100 and Bitcoin in GBP.</p>
+        <a href="https://github.com/anumahd/Five-Year-Historical-Performance-of-FTSE100-and-Bitcoin-Prices-in-GBP" target="_blank" class="text-teal-600 font-medium mt-auto">View on GitHub →</a>
       </div>
 
-      <!-- RFM Segmentation -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="RFM.png" alt="RFM segmentation" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">RFM Customer Segmentation</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Segmenting customers with Recency - Frequency - Monetary analysis.
-          </p>
-          <a href="https://github.com/anumahd/RFM-Model" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
-        </div>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="saga.PNG" alt="Attrition dashboard" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">Employee Attrition Dashboard (Tableau)</h3>
+        <p class="text-gray-700 mb-4">Interactive dashboard exploring drivers of employee turnover.</p>
+        <a href="https://public.tableau.com/app/profile/david.a6651/viz/DavidAnumahSAGAdummydata/Dashboard1" target="_blank" class="text-teal-600 font-medium mt-auto">View on Tableau →</a>
       </div>
 
-      <!-- Recommendation Engine -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="recomend.jpeg" alt="Recommendation Engine" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">Recommendation Engine</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            ALS-based recommender on retail data with AUC evaluation.
-          </p>
-          <a href="https://github.com/anumahd/recommendation-engine" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
-        </div>
-      </div>
-
-      <!-- FTSE vs Bitcoin -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="FTSE100.jpeg" alt="FTSE vs Bitcoin" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">FTSE100 vs Bitcoin Analysis</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Five-year comparative performance in GBP.
-          </p>
-          <a href="https://github.com/anumahd/Five-Year-Historical-Performance-of-FTSE100-and-Bitcoin-Prices-in-GBP" target="_blank" class="text-teal-600 font-medium">View on GitHub →</a>
-        </div>
-      </div>
-
-      <!-- Tableau Dashboards -->
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="saga.PNG" alt="Attrition Dashboard" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">Employee Attrition Dashboard</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Tableau dashboard exploring turnover drivers.
-          </p>
-          <a href="https://public.tableau.com/app/profile/david.a6651/viz/DavidAnumahSAGAdummydata/Dashboard1" target="_blank" class="text-teal-600 font-medium">View on Tableau →</a>
-        </div>
-      </div>
-
-      <div class="aspect-square">
-        <div class="bg-white dark:bg-gray-800 h-full w-full rounded-xl shadow-md p-4 flex flex-col justify-between hover:scale-[1.02] hover:shadow-xl transition-transform duration-300" data-aos="fade-up">
-          <img src="sales.PNG" alt="Sales Dashboard" class="rounded-md mb-4 shadow">
-          <h3 class="text-xl font-semibold mb-2">Sales Dashboard</h3>
-          <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-            Tableau dashboard showing revenue trends &amp; categories.
-          </p>
-          <a href="https://public.tableau.com/app/profile/david.a6651/viz/share_16386374542650/Dashboard1" target="_blank" class="text-teal-600 font-medium">View on Tableau →</a>
-        </div>
+      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-md hover:scale-[1.02] hover:shadow-xl transition-transform duration-300 flex flex-col" data-aos="fade-up">
+        <img src="sales.PNG" alt="Sales dashboard" class="rounded-md mb-4 shadow w-full object-cover">
+        <h3 class="text-xl font-semibold mb-2">Sales Dashboard (Tableau)</h3>
+        <p class="text-gray-700 mb-4">Comprehensive sales dashboard showing trends and revenue insights.</p>
+        <a href="https://public.tableau.com/app/profile/david.a6651/viz/share_16386374542650/Dashboard1" target="_blank" class="text-teal-600 font-medium mt-auto">View on Tableau →</a>
       </div>
 
     </div>
   </section>
-
-  <!-- ─── CONTACT ──────────────────────── -->
-  <section id="contact" class="py-24 bg-teal-600 text-white px-6" data-aos="zoom-in">
-    <h2 class="text-3xl font-bold mb-6 text-center">Let’s Talk</h2>
-    <p class="max-w-xl mx-auto mb-8 text-center">
-      Open to data-science / analyst roles, freelance projects, and collaborations.<br>
-      Reach out and I’ll reply within 24 hours.
-    </p>
-    <div class="flex justify-center gap-6">
-      <a href="mailto:anumahd@yahoo.com" class="underline">anumahd@yahoo.com</a>
-      <a href="https://github.com/anumahd" class="underline">GitHub</a>
-      <a href="https://linkedin.com/in/david-o-anumah1984" class="underline">LinkedIn</a>
-    </div>
-  </section>
-
-  <footer class="py-6 text-center text-sm text-gray-600">
-    © 2025 David Anumah — Built with GitHub Pages &amp; Tailwind CSS
-  </footer>
-
-  <!-- Scroll-to-top button -->
-  <button id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"
-          class="hidden fixed bottom-6 right-6 p-3 rounded-full bg-teal-600 text-white shadow-lg transition-opacity duration-300 hover:bg-teal-700 z-50">↑</button>
-
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init({duration:800});</script>
-
-  <!-- Counter animation -->
-  <script>
-    document.querySelectorAll('.count').forEach(el=>{
-      const final=+el.dataset.count,step=Math.ceil(final/50);
-      let val=0;const tick=()=>{val+=step;if(val>final)val=final;
-        el.textContent=val.toLocaleString();if(val<final)requestAnimationFrame(tick);};
-      tick();
-    });
-  </script>
-
-  <!-- Show/hide scroll-top -->
-  <script>
-    const toTop=document.getElementById('toTop');
-    window.addEventListener('scroll',()=>{window.scrollY>300?toTop.classList.remove('hidden'):toTop.classList.add('hidden');});
-  </script>
 </body>
 </html>
